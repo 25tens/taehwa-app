@@ -1,0 +1,60 @@
+
+
+text tspan{
+  font-family: Helvetica, Arial;
+  font-weight: 900;
+
+  animation: textAnim 2s ease infinite;
+  -webkit-animation: textAnim 2s ease infinite;
+}
+
+
+#l2 {
+  animation-delay: .1s;
+  -webkit-animation-delay: .1s;
+}
+#l3 {
+  animation-delay: .2s;
+  -webkit-animation-delay: .2s;
+}
+#l4 {
+  animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+}
+#l5 {
+  animation-delay: .4s;
+  -webkit-animation-delay: .4s;
+}
+
+#l6 {
+  animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+}
+
+#l7 {
+  animation-delay: .6s;
+  -webkit-animation-delay: .6s;
+}
+#l8 {
+  animation-delay: .6s;
+  -webkit-animation-delay: .6s;
+}
+#l9 {
+  animation-delay: .6s;
+  -webkit-animation-delay: .6s;
+}
+
+@keyframes textAnim {
+  0% {font-size: 80px; fill: white;}
+  10% {font-size: 100px; fill: red;}
+  40% {font-size: 70px; fill: white;}
+  100% {font-size: 80px; fill: white;}
+}
+
+@-webkit-keyframes textAnim {
+  0% {font-size: 80px; fill: white;}
+  10% {font-size: 100px; fill: red;}
+  40% {font-size: 70px; fill: orange;}
+  100% {font-size: 80px; fill: white;}
+}
+

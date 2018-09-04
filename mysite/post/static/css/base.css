@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:300");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*.wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}*/
+.wrapper {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+header {
+  width: ;
+}
+@media screen and (min-width: 992px) {
+  header {
+/*    height:350px;*/
+  }
+}
+
+/*h1 {
+  margin: 50px 0 0 40px;
+  color: #eff0f4;
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  font-size: 45px;
+  background-color: #74DBEF;
+  width: 245px;
+  height: 50px;
+  box-shadow: 10px 10px 0 #264E86;
+}*/
+
+#main-container {
+  background-color: #4E709D;
+}
+
+main {
+  background-color: #fff;
+    height: 550px;
+  padding: 10px 20px;
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding: 35px 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  main {
+    padding: 45px 50px;
+  }
+}
+
+/*h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+  color: #264E86;
+}
+
+p {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #264E86;
+}*/
+
+.aside {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+  height: 150px;
+}
+/*.aside h3 {
+  font-size: 25px;
+  font-family: 'Comfortaa', cursive;
+  color: #fff;
+}
+
+#widgets {
+  background-color: #264E86;
+}
+
+img {
+  width: 100%;
+  border: 3px solid #fff;
+}*/
+
+footer {
+  padding: 40px 0;
+  background-color: #84B9EF;
+}
+footer h4 {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  footer h4 {
+    font-size: 25px;
+  }
+}

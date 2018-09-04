@@ -1,0 +1,108 @@
+{% load staticfiles %}
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TeaHwa_Digital</title>
+    
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" >
+    
+     <link href="{% static 'css/text.css' %}" rel="stylesheet"> 
+     <link href="{% static 'css/tube.css' %}" rel="stylesheet"> 
+     <link href="{% static 'css/slogan.css' %}" rel="stylesheet"> 
+     <link href="{% static 'css/wave.css' %}" rel="stylesheet"> 
+   <!--   <link href="{% static 'css/base.css' %}" rel="stylesheet">  -->
+   <!--   <link href="{% static 'css/fish.css' %}" rel="stylesheet">  -->
+  
+   <!-- <link href="{% static 'css/flipcard.css' %}" rel="stylesheet"> -->
+    
+ </head>
+
+
+ <body>
+
+ <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <svg width="600" height="">
+  <text x="300" y="125" text-anchor="middle">
+    <tspan id="l1">태</tspan>
+    <tspan id="l2">화</tspan>
+    <tspan id="l3">상</tspan>
+    <tspan id="l4">회</tspan>
+   <!--  <tspan id="l5">A</tspan>
+    <tspan id="l6">T</tspan>
+    <tspan id="l7">I</tspan>
+    <tspan id="l8">O</tspan>
+    <tspan id="l9">N</tspan> -->
+  </text>
+</svg>
+          <!-- <h1 class="text-center">starfish</h1> -->
+        </div><!--col--->
+      </div><!---row-->
+    </div><!--container-->
+  </header><!--header-->
+  
+ <!--  <section id="main-container" class="wrapper"> -->
+    <div class="container">
+      <!-- <div class="row no-gutters"> -->
+         <div class="row">
+        <div class="col-md-8">
+        
+            <div class="video-background">
+    <div class="video-foreground">
+      <iframe width="600px" height="340px" src="https://www.youtube.com/embed/9uy9BAWzdcs"
+     frameborder="0" allowfullscreen ></iframe>
+    </div>
+  </div>
+  </div><!---col-8-->
+        <div class="col-md-4 align-self-center">
+        
+          <div class="aside">
+            {% block content %}
+            {% endblock %}
+          </div><!---aside-->
+        </div><!--col-->
+      </div><!---row-->
+    </div><!---container-->
+        <div class="ocean">
+  <div class="wave"></div>
+  <div class="wave"></div>
+</div> 
+  <!---</section>/main-container-->
+
+ <!-- <div class="container" >
+      
+         <div class="row">
+        <div class="col-md-12">
+    <div class="ocean">
+  <div class="wave"></div>
+  <div class="wave"></div>
+</div>
+    </div>
+      </div>
+   </div>  -->
+      
+    
+
+    
+<!-- Bootstrap core JavaScript -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+<!-- Plugin JavaScript -->
+    <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>      
+    <!-- <script src="{% static 'js/wave.js' %}"></script> -->
+ <!-- <script src="{% static 'js/tube.js' %}"></script>  -->
+  <script src="{% static 'js/fish.js' %}"></script>
+  
+  </body>
+
+</html>

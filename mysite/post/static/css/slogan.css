@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding:700');
+.slogan{
+  overflow: hidden;
+  height: 40px;
+  line-height: 40px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 36px;
+  color: #000000;
+
+  }
+.list{
+   color: red;
+  vertical-align: top;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  animation: text 10s ease infinite;
+  li{
+    padding: 0px 5px;
+    height: 40px;
+    line-height: 50px;
+  }
+}
+
+@keyframes text{
+  0%, 8% { transform: translate(0, 0%); }
+  11%, 19% { transform: translate(0, -20%); }
+  22%, 30% { transform: translate(0, -40%); }
+  33%, 41% { transform: translate(0, -60%); }
+  44%, 52%{ transform: translate(0, -80%); }
+  55%, 63% { transform: translate(0, -60%); }
+  66%, 74% { transform: translate(0, -40%); }
+  77%, 85% { transform: translate(0, -20%); }
+  88%, 96% { transform: translate(0, 0); }
+}
+
+
+.real{
+   line-height: 40px;
+  font-family: 'Nanum Gothic Coding', monospace;
+   font-size:36px;
+  font-weight:bold;
+  padding-top:10px;  
+ /* position:fixed;*/
+  width:100%;
+  background-color: #eee;
+  
+}
+a {
+  color: #000000;
+}

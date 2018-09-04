@@ -1,0 +1,52 @@
+{% extends 'post/base.html' %}
+
+ 
+
+{% block content %}
+
+ 
+
+  
+
+
+
+
+  <div class="slogan">
+  추천상품：
+  <ul class="list">
+    <li>건새우</li>
+    <li>멸치</li>
+    <li>마른김</li>
+    <li>황태채</li>
+    <li>쥐포</li>
+  </ul>
+</div>
+
+
+{% for post in post_list %}
+
+<!-- {% if post.photo %}
+         <img src="{{ post.photo.url }}" class="post_photo" />
+{% endif %}  --> 
+      <div class="real" ><a href="{% url 'post_detail' pk=post.pk %}"> {{ post.title }} </a> </div>  
+      <!--  class="real"은 slogan.css에 -->
+      <!--  <p>{{ post.content|linebreaksbr }}</p>
+        <p>   {{ post.published_date }}</p> 
+           -->
+    
+        
+{% endfor %} 
+
+{% endblock  %}
+
+	
+  
+
+
+ 
+
+
+      
+ 
+
+
