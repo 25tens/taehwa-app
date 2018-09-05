@@ -55,6 +55,23 @@ body {
     transform: translate3d(0, 5px, 0);
   }
 }
+@-webkit-keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+@-webkit-keyframes swell {
+  0%,
+  100% {
+    transform: translate3d(0, -25px, 0);
+  }
+  50% {
+    transform: translate3d(0, 5px, 0);
+  }
+}
 .endWave{
   display:none;
 }

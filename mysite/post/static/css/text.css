@@ -6,10 +6,23 @@ text tspan{
 
   animation: textAnim 2s ease infinite;
   -webkit-animation: textAnim 2s ease infinite;
+  
 }
 
-
 #l2 {
+  animation-delay: .3s;
+  -webkit-animation-delay: .3s;
+}
+#l3 {
+  animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+}
+#l4 {
+  animation-delay: .5s;
+  -webkit-animation-delay: .5s;
+}
+
+/*#l2 {
   animation-delay: .1s;
   -webkit-animation-delay: .1s;
 }
@@ -20,8 +33,8 @@ text tspan{
 #l4 {
   animation-delay: .3s;
   -webkit-animation-delay: .3s;
-}
-#l5 {
+}*/
+/*#l5 {
   animation-delay: .4s;
   -webkit-animation-delay: .4s;
 }
@@ -42,18 +55,18 @@ text tspan{
 #l9 {
   animation-delay: .6s;
   -webkit-animation-delay: .6s;
-}
+}*/
 
 @keyframes textAnim {
   0% {font-size: 80px; fill: white;}
-  10% {font-size: 100px; fill: red;}
-  40% {font-size: 70px; fill: white;}
+  10% {font-size: 120px; fill: red;}
+  40% {font-size: 70px; fill: orange;}
   100% {font-size: 80px; fill: white;}
 }
 
 @-webkit-keyframes textAnim {
   0% {font-size: 80px; fill: white;}
-  10% {font-size: 100px; fill: red;}
+  10% {font-size: 120px; fill: red;}
   40% {font-size: 70px; fill: orange;}
   100% {font-size: 80px; fill: white;}
 }
